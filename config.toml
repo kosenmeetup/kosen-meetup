@@ -5,7 +5,7 @@ theme = "herring-cove"
 
 [params]
 github = "https://github.com/kosenmeetup/"
-description = "高専Meepup公式サイト"
+description = "高専Meetup公式サイト"
 copyright = "高専Meetupネットワーク"
 [[params.links]]
 name = "Home"
