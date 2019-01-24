@@ -8,6 +8,11 @@ github = "https://github.com/kosenmeetup/"
 description = "高専Meepup公式サイト"
 copyright = "高専Meetupネットワーク"
 [[params.links]]
-Home = "/"
-About = "/about/"
-guideline = "/guideline/"
+name = "Home"
+url = "/"
+[[params.links]]
+name = "About"
+url = "/about/"
+[[params.links]]
+name = "guideline"
+url = "/guideline/"
