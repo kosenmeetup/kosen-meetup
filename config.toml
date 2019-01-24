@@ -1,4 +1,13 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://kosen-meetup.netlify.com/"
+languageCode = "jp"
+title = "高専Meetup"
 theme = "herring-cove"
+
+[params]
+github = "https://github.com/kosenmeetup/"
+description = "高専Meepup公式サイト"
+copyright = "高専Meetupネットワーク"
+[[params.links]]
+Home = "/"
+About = "/about/"
+guideline = "/guideline/"
