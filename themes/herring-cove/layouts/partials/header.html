@@ -51,7 +51,7 @@
           <li class="sidebar-brand"><a href="{{ .Site.BaseURL }}/"><h1 class="brand">{{ .Site.Title }}</h1></a><h3>{{ .Site.Params.Description }}</h3></li>
           <hr />
 					{{ range .Site.Params.links }}
-						<li><a href="{{ $baseUrl }}{{ .URL }}">{{ title .name }} </a></li>
+						<li><a href="{{ $baseUrl }}{{ .url }}">{{ title .name }} </a></li>
 					{{ end }}
           <hr />
           <div id="social-wrapper">
