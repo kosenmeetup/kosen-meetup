@@ -1,18 +1,16 @@
 baseURL = "https://kosen-meetup.netlify.com/"
-languageCode = "jp"
+DefaultContentLanguage = "ja"
 title = "高専Meetup"
-theme = "herring-cove"
+theme = "hyde"
+hascjklanguage = true
 
 [params]
 github = "https://github.com/kosenmeetup/"
 description = "高専Meetup公式サイト"
 copyright = "高専Meetupネットワーク"
-[[params.links]]
-name = "Home"
-url = "/"
-[[params.links]]
+[[menus.main]]
 name = "About"
-url = "/about/"
-[[params.links]]
+URL = "/about/"
+[[menus.main]]
 name = "guideline"
-url = "/guideline/"
+URL = "/guideline/"
