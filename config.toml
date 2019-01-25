@@ -4,6 +4,7 @@ DefaultContentLanguage = "ja"
 title = "高専Meetup"
 theme = "hyde"
 hascjklanguage = true
+canonifyurls = false
 
 [params]
 github = "https://github.com/kosenmeetup/"
