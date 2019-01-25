@@ -1,4 +1,5 @@
 baseURL = "https://kosen-meetup.netlify.com/"
+LanguageCode = "ja"
 DefaultContentLanguage = "ja"
 title = "高専Meetup"
 theme = "hyde"
@@ -7,7 +8,6 @@ hascjklanguage = true
 [params]
 github = "https://github.com/kosenmeetup/"
 description = "高専Meetup公式サイト"
-copyright = "高専Meetupネットワーク"
 [[menus.main]]
 name = "About"
 URL = "/about/"
