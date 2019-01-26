@@ -7,11 +7,16 @@ hascjklanguage = true
 canonifyurls = false
 
 [params]
-github = "https://github.com/kosenmeetup/"
 description = "高専Meetup公式サイト"
-[[menus.main]]
+[[menu.main]]
 name = "About"
 URL = "/about/"
-[[menus.main]]
-name = "guideline"
+weight = 1
+[[menu.main]]
+name = "Guideline"
 URL = "/guideline/"
+weight = 2
+[[menu.main]]
+name = "GitHub"
+URL = "https://github.com/kosenmeetup/"
+weight = 3
