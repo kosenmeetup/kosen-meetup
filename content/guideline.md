@@ -1,7 +1,7 @@
 ---
 title: "Guideline"
 date: 2019-01-25T00:56:40+09:00
-draft: true
+draft: false
 categories : "guideline"
 ---
 
